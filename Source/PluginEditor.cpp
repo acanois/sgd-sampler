@@ -38,3 +38,13 @@ void SgdsamplerAudioProcessorEditor::resized()
 {
     mLoadButton.setBounds(getWidth() / 2 - 50, getHeight() / 2 - 50, 100, 100);
 }
+
+bool SgdsamplerAudioProcessorEditor::isInterestedInFileDrag (const juce::StringArray& files)
+{
+    
+}
+
+void SgdsamplerAudioProcessorEditor::filesDropped (const juce::StringArray& files, int x, int y)
+{
+
+}
